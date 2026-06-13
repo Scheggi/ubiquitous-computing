@@ -1,0 +1,16 @@
+# Core scientific stack
+numpy
+matplotlib
+
+# Interactive plotting (interactive.ipynb)
+plotly
+
+# Interactive widgets / sliders (Fitts'_Law.ipynb)
+ipywidgets
+
+# JS minification demo (Bangle.ipynb)
+jsmin
+
+# Notebook runtime
+jupyter
+notebook
