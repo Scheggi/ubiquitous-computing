@@ -1,0 +1,53 @@
+#separator:tab
+#html:false
+#tags column:3
+Weiser (1991): Wie lautet das Schlüsselzitat über Technologie?	„The most profound technologies are those that disappear — they weave themselves into the fabric of everyday life until they are indistinguishable from it.“	Weiser
+Weiser: Was ist „embodied virtuality“ und wie verhält es sich zu VR?	Weisers Begriff für UbiComp — den Computer in die reale Welt einbetten; das Gegenteil von VR (die die Welt in den Computer holt).	Weiser
+Weiser: Welche zwei zentralen technischen Probleme nennt er?	Location (Geräte müssen wissen, wo sie sind → Kontext ohne KI) und Scale (verschiedene Gerätegrößen).	Weiser
+Weiser: Die drei Gerätegrößen mit Skala?	Tabs (Inch, „active Post-it notes“, z.B. Active Badge) · Pads (Foot, „scrap computers“) · Boards (Yard, Liveboards).	Weiser
+Weiser: Was war der Active Badge?	Früher Tab-Prototyp (Olivetti Cambridge): identifiziert den Träger, öffnet Türen, leitet Anrufe weiter — frühe location-awareness.	Weiser
+Weiser: Was sagt er bereits 1991 zu Privacy?	Warnt vor Totalitarismus-Risiken und empfiehlt Kryptographie „from the outset“.	Weiser
+Weiser: Welche drei Eras of Computing?	Mainframe (1950, 1 Computer:viele) → PC (1975, 1:1) → Ubiquitous Computing (2000, viele:1, nearly invisible).	Weiser
+Healey & Picard: Wer sind die Autoren, wofür steht Picard?	Jennifer Healey (HP) & Rosalind Picard (MIT) — Picard begründete das Affective Computing.	Healey_Picard
+Healey & Picard: Welche vier Sensortypen?	EKG (Herz), EMG (Trapezius/Schulter), Skin Conductivity/EDA (Hand+Fuß), Respiration (Atmung). Im Volvo S70.	Healey_Picard
+Healey & Picard: Welche drei Stressniveaus über welche Situationen?	Rest (niedrig, im Stand) · Highway (mittel) · City (hoch).	Healey_Picard
+Healey & Picard: Gesamtgenauigkeit der Klassifikation und Methode?	97,4 % (22 Features, Fisher-Projektion + linearer Diskriminant, Leave-one-out, 5-Min-Segmente).	Healey_Picard
+Healey & Picard: Welche zwei Signale korrelieren am stärksten mit Fahrerstress?	Hautleitfähigkeit (skin conductance) + Herzrate — die ersten in Autos zu integrierenden Sensoren.	Healey_Picard
+Healey & Picard: Wie wurde Stress validiert?	Fragebogen (1,16/2,00/2,55) und Video-Coding (Stressindikatoren/min: 13,6/61,4/87,7), Inter-Coder α=0,91–1,0.	Healey_Picard
+Healey & Picard: Praktische Anwendung?	Adaptives Management nicht-kritischer In-Vehicle-Systeme (Anrufe ins Voicemail, weniger Navi-Infos bei Stress).	Healey_Picard
+Abowd (2012): Provokante Kernthese (Zitat)?	„Ubicomp is dead! Long live (ubiquitous) computing!“ — verschwindet durch Erfolg, nicht Scheitern.	Abowd
+Abowd: Drei charakteristische Beiträge der Ubicomp-Community?	(a) Hacking in the real world (Living Labs) (b) „your noise is my signal“ (Infrastruktur zweckentfremden, z.B. RADAR WiFi) (c) Multidisziplinarität.	Abowd
+Abowd: Was ist „RADAR“ als Beispiel für „your noise is my signal“?	WiFi-Fingerprinting für Indoor-Lokalisierung — nutzt vorhandene WLAN-Signale zur Positionsbestimmung.	Abowd
+Abowd: Drei Stufen der Applications-Research?	application-agnostic → application-motivated → application-driven (Holy Grail).	Abowd
+Abowd: Was meint „What is ubicomp's HyperCard?“ (Design-/Run-Time-Gap)?	Apps zu bauen ist zu schwer: PC = 2D-Entwicklung+2D-Nutzung; Ubicomp = 2D-Entwicklung aber 3D-physische Nutzung → Lücke. Gesucht: einfaches Bau-Werkzeug.	Abowd
+Abowd: Was ist die 4. Generation des Computing?	Auflösung der Trennung Mensch–Gerät — eine „conjoined“ human-computer experience (Cloud, Crowdsourcing).	Abowd
+Knight & Baber (download.pdf): Kernaussage und Instrument?	Komfort ist nicht eindimensional → Comfort Rating Scales (CRS) mit 6 Dimensionen.	Knight_Baber
+Knight & Baber: Die sechs CRS-Dimensionen?	Emotion, Attachment, Harm, Perceived change, Movement, Anxiety. (Emotion+Anxiety kognitiv, Rest physisch.)	Knight_Baber
+Knight & Baber: Wie wurden die CRS entwickelt / woran angelehnt?	92 Begriffe → Multidimensional Scaling (MDS) → 6 Cluster; Skala dem NASA-TLX nachempfunden (0–20).	Knight_Baber
+Knight & Baber: Schlüsselbefund Labor vs. Feld?	Im Feld stiegen die kognitiven Dimensionen Emotion (>2×) und Anxiety (>5×) stark → Komfort muss real gemessen werden.	Knight_Baber
+Knight & Baber: Welche Dimensionen hatten höchste/niedrigste Werte?	Höchste: Attachment, Perceived change, Movement (physisch). Niedrigste: Harm.	Knight_Baber
+Data Dilemma (Van Laerhoven 2025): Was ist das „Data Dilemma“?	Daten sammeln ist trivial — Gefahr ist blindes Vertrauen in Daten UND Labels; nötig: inspect + interpret.	DataDilemma
+Data Dilemma: Was ist WESAD?	Wearable Stress and Affect Detection: 15 Probanden, multimodal (ACC/ECG/EDA/EMG/RESP/TEMP), Stress vs. Non-Stress ~93,1 %.	DataDilemma
+Data Dilemma: Was ist WEAR?	Outdoor-Sport-Datensatz: >19 h, 22 Probanden, 18 Aktivitäten, egozentrisches Video + IMU.	DataDilemma
+Data Dilemma: Überraschendes Beispiel zu Label-Fehlern?	Selbst Goldstandard-Datensätze wie MNIST und ImageNet enthalten Label-Fehler.	DataDilemma
+Data Dilemma: Schlüsselfragen an jeden Datensatz?	Korrekt aufgezeichnet? Was ist drin? Gab es Ausfälle (outages)? (+ 7-Schritte-uPlot-Rezept Python→JS→HTML.)	DataDilemma
+Nature Methods (Streit & Gehlenborg 2014): Faustregel?	Bar charts für Counts, Box plots für Verteilungen.	NatureMethods
+Nature Methods: Welche fünf Werte kodiert ein Box plot?	Q1, Q3 (=IQR), Median, untere & obere Whisker (typ. ±1,5·IQR); Ausreißer als Punkte. Whisker-Range immer annotieren.	NatureMethods
+Nature Methods: Warum ist Bar chart + Error Bar für gesampelte Daten irreführend?	Balken startet bei 0 und suggeriert, der ganze Bereich sei beobachtet — Teile wurden evtl. nie gemessen.	NatureMethods
+Nature Methods: Stacked vs. layered vs. grouped Bar chart?	Stacked = Gesamtmenge + Kategorienbeitrag; layered = Vergleich innerhalb einer Kategorie; grouped = Werte über Kategorien je Item.	NatureMethods
+Nature Methods: Warum Bar statt Pie chart?	Länge wird genauer wahrgenommen als Winkel. (Max. 8–12 unterscheidbare Farben.)	NatureMethods
+Fry/New Yorker (2021): Erkläre das Challenger-Beispiel.	Im Streudiagramm fehlten die 17 Flüge OHNE O-Ring-Schaden → Kälte→Versagen-Trend unsichtbar → Start bei Kälte → 7 Tote. Lehre: nach fehlenden Daten fragen.	Fry
+Fry: Wer war William Playfair, was erfand er?	Erfinder von Linien-, Balken- und Tortendiagramm (1786); brachte die Zeit auf die x-Achse.	Fry
+Fry: Was ist an Van Langren (1628) bedeutsam?	Wahrscheinlich erster statistischer Graph — 1D-Linie mit 12 Längengrad-Schätzungen, zeigte deren Streuung.	Fry
+Fry: Was kodiert ein Scatter Plot laut Tufte, und warum Brücke zum ML?	Distanz kodiert Ähnlichkeit (Cluster), nicht physische Nähe → Grundlage für hochdimensionale Räume / Clustering. Tufte: „greatest of all graphical designs“.	Fry
+Exercise 01: Die fünf Schritte zum Entwurf einer Studie?	(1) Variablen + Relation (2) Treatments (3) Hypothese → Nullhypothese (4) Gruppenzuordnung between/within (5) Messung + Statistik (p<0,05, Boxplot).	Exercise01
+Exercise 01: Welche Bias-Quellen/Confounder werden genannt?	Tageslänge, Routinen, Wochentag (Beispiel „Kaffee → Schritte/Tag“).	Exercise01
+Matt Jones (Gresham): Worin ähneln sich Mensch und LLM?	Beide arbeiten prädiktiv (reduzieren Überraschung); beide verlieren die Mitte aus dem Blick („lost in the middle“).	MattJones
+Matt Jones: Worin unterscheiden sich Mensch und LLM?	KI hat semantisches, aber kein episodisches/emotionales Gedächtnis; verbindet Wörter mathematisch; Training stoppt — Mensch lernt kontinuierlich. „Gefangen in Platons Höhle.“	MattJones
+Paper-Zuordnung: Welches Paper gehört zur Stresserkennung mit 4 Sensoren / 97,4 %?	Healey & Picard — Detecting Stress During Real-World Driving.	Zuordnung
+Paper-Zuordnung: Welches Paper liefert die 6 Comfort Rating Scales?	Knight & Baber — The Comfort Assessment of Wearable Computers (download.pdf).	Zuordnung
+Paper-Zuordnung: Welches Paper bringt Tabs/Pads/Boards und Location+Scale?	Weiser — The Computer for the 21st Century (1991).	Zuordnung
+Paper-Zuordnung: Welches Paper sagt „your noise is my signal“?	Abowd — What next, Ubicomp? (2012).	Zuordnung
+Paper-Zuordnung: Welches Paper bringt das Challenger-Beispiel?	Fry — When Graphs Are a Matter of Life and Death (New Yorker 2021).	Zuordnung
+Paper-Zuordnung: Welches Paper: Bar=Counts, Box=Verteilungen?	Streit & Gehlenborg — Bar charts and box plots (Nature Methods 2014).	Zuordnung
+Paper-Zuordnung: Welches Paper bringt WESAD/WEAR und Label-Fehler?	Van Laerhoven — The Data Dilemma (2025).	Zuordnung
