@@ -15,6 +15,7 @@ summary/     Modulare Zusammenfassung (st2-Stil):
 LERNPLAN_KLAUSUR.md   10-Einheiten-Lernplan
 EXAM_PRACTICE.md      Übungsfragen mit Lösungen (inkl. Paper-Tiefenfragen)
 anki_papers.tsv       50 Anki-Karteikarten zu den Papern
+anki_lectures.tsv     71 Anki-Karteikarten zu den Vorlesungen (V1–V7)
 requirements.txt      Python-Abhängigkeiten der Notebooks
 ```
 

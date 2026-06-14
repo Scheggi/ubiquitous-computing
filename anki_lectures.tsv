@@ -1,0 +1,74 @@
+#separator:tab
+#html:false
+#tags column:3
+V1: Nenne die drei Eras of Computing (Weiser) mit Jahr und Verhältnis Computer:Mensch.	Mainframe (1950, 1 Computer:viele) → PC (1975, 1:1) → Ubiquitous Computing (2000, viele:1, nearly invisible).	V1
+V1: Was bedeutet „Good technology is invisible“?	Gute Technik tritt hinter die Aufgabe zurück und zieht keine Aufmerksamkeit auf sich (Bleistift, Auto); Computer sind meist NICHT unsichtbar.	V1
+V1: Warum ist UbiComp „die Umkehrung der Virtual Reality“?	VR bringt die Welt in den Computer; UbiComp bringt den Computer in die Welt — der Mensch (nicht der Computer) steht im Zentrum.	V1
+V1: Die drei Definitions-Säulen von UbiComp?	(1) 3. Ära des Computing (2) unsichtbare Technologie (3) Fortschritt aus Embedded Systems.	V1
+V1: Affordance — wer prägte den Begriff, wer brachte ihn in die HCI?	Geprägt von Gibson (1979), in die HCI gebracht von Norman (1988).	V1
+V1: Embedded Software (Lee) — was ist das technische Kernproblem?	Management von Zeit und Nebenläufigkeit (concurrency).	V1
+V1: Die drei PARC-Prototypen (1992) mit Größe und Anzahl/Nutzer?	Tab (Inch/Post-It, mehrere/Nutzer) · Pad (Foot/Tablet, eines/Nutzer) · Board (Yard/LiveBoard, eines/Büro).	V1
+V1: UbiComp vs. KI — vervollständige: „smart verhält sich zu intelligent wie …“	… Neuronen zu Gehirnen. Viele smarte Komponenten (winziger Weltausschnitt); Sinn entsteht durch Vernetzung.	V1
+V1: Was ist ein Living Lab?	Methode: Prototypen im realen Arbeits-/Alltagsumfeld einsetzen und untersuchen.	V1
+V1: Users-Computers-Reality — die vier Modelle?	GUI (1 C) · VR (C umschließt U) · AR (C zwischen U und R) · UbiComp (viele C). Mediated Reality: VR⊂AR⊂Mixed⊂Mediated.	V1
+V2: Die drei Kausalitätskriterien nach Mill (1843)?	Ursache geht voraus + Ursache und Wirkung korrelieren + alle anderen Erklärungen ausgeschlossen.	V2
+V2: Unabhängige vs. abhängige Variable + was ist ein „Level“?	Unabhängig = manipuliert; abhängig = gemessen. Level = Anzahl unterschiedlicher Werte der unabhängigen Variable.	V2
+V2: Was ist die Nullhypothese und warum widerlegt man sie?	Sagt „kein Effekt“ voraus. Widerlegen ist logisch einfacher als die Hypothese direkt zu beweisen.	V2
+V2: Mode vs. Median vs. Mean (je Skalenniveau)?	Mode = häufigster Wert (auch nominal). Median = mittlerer Wert, robust (ab ordinal). Mean = Summe/Anzahl, ausreißerempfindlich (nur Intervall/Ratio).	V2
+V2: Ab welchem p-Wert signifikant? Heißt das praktisch relevant? Tests?	p ≤ 5 %. Nein, signifikant ≠ praktisch relevant. Tests: Permutationstest, t-Test, ANOVA.	V2
+V2: Observational vs. experimental vs. quasi-experimental — welches erlaubt Kausalaussagen?	Experimental (isoliert/kontrolliert Variablen). Quasi-experimentell = keine zufällige Zuordnung (z.B. Ethik).	V2
+V2: Die vier quasi-experimentellen Designs — welches ist History-Threat-anfällig?	One-group post-test · one-group pre/post-test · interrupted time-series (History-Threat!) · static group comparison.	V2
+V2: Within-subject vs. between-group (je 1 Vor-/Nachteil)?	Within: + weniger n, − Carry-over. Between: + kein Carry-over, − mehr n / schwerer signifikant.	V2
+V2: Was lehrt das Lanarkshire-Milk-Experiment (1930)?	Trotz 20.000 Kindern wertlos, weil Lehrer arme Kinder bevorzugt der Milchgruppe zuteilten → Randomisierung ist kritisch.	V2
+V2: Was macht UbiComp-Evaluation schwer und welche Lösungen?	„In the wild“ (Labor erklärt nur ~20 % der Alltagsvarianz), ganzes System muss erst gebaut werden. Lösungen: Wizard of Oz, Living Lab, Participatory Design.	V2
+V2: Solomon-4-Gruppen-Design — wozu?	Trennt Treatment-Effekt vom Pre-Test-Effekt (2 Experimental- + 2 Kontrollgruppen), aber sehr teuer.	V2
+V3: Die fünf Wearable-Eigenschaften nach Rhodes (1996)?	portable while operational, hands-free, Umgebungssensoren, proaktiv, always on. (+ Mann 1998: reconfigurable, always ready.)	V3
+V3: Was war der erste Wearable Computer? Input/Output?	Thorp & Shannon (1955–66), Roulette. Output = Lautsprecher hinterm Ohr, Input = Zehenschalter.	V3
+V3: Intelligence Augmentation (IA) vs. AI?	IA verbessert den Menschen, AI ersetzt ihn.	V3
+V3: Was ist der Memex (Bush 1945)?	Proto-Hypertext-/Gedächtnismaschine mit indexierten Mikrofilmen; sagte Hypertext, PC, Internet, WWW voraus.	V3
+V3: Die drei Ergonomie-Messmethoden (objektiv/physiologisch/subjektiv)?	REBA (objektiv, Haltung, Score 1=gut…15=schlecht) · Borg CR-10 (physiologische Anstrengung, 0–10) · Comfort Rating Scales (subjektiv, 6 Dim.).	V3
+V3: Wie stark verlangsamt Tippen beim Gehen? Gilt Fitts beim Gehen?	>35 % langsamer + höhere Fehlerrate; Fitts' Law gilt weiterhin.	V3
+V3: „Designing for Intimacy“ (Google Glass) — die drei Säulen?	Attention (Micro-Interactions) · Social interaction (graceful, multiple Zugangswege) · UX (Informationsdichte↓, Glanceability, eine Aufgabe).	V3
+V3: Was sind Micro-Interactions? Smartwatch laut Ahonen?	Winzige Interaktions-Bursts (eine Aufgabe/ein Input), reduzieren Aufmerksamkeitsfragmentierung. Smartwatch = 3-Sekunden-Gerät.	V3
+V3: Was ist Sousveillance (Mann)?	„Watch the watchers“ — Überwachung von unten (Gegenbegriff zu Surveillance).	V3
+V3: Privacy — Wearables vs. Smart Environments?	Wearables = „der Nutzer trackt die Welt“; Smart Environments = „die Welt trackt den Nutzer“.	V3
+V4: Was ist Smart Dust und wer prägte den Begriff?	Winzige, drahtlos vernetzte Sensoren/Roboter über ein Gebiet verteilt — Kris Pister (1997).	V4
+V4: Die drei technologischen Treiber der WSN-Vision?	Moore's Law (Prozessoren) · MEMS (Sensoren) · Kommunikationsstandards.	V4
+V4: Was misst ein Accelerometer statisch vs. dynamisch?	Statisch = Rotation/Gravitation (1g); dynamisch = Translation. Modell: Kugel im Röhrchen an Federn.	V4
+V4: Die fünf WSN-Herausforderungen?	Power · Processing (kein Floating Point) · Communication · Data Storage · Deployment.	V4
+V4: Was passiert bei einem Interrupt (IRQ) Schritt für Schritt?	CPU-Kontext (PC + Register) auf den Stack sichern → ISR ausführen → RETURN. ISRs kurz halten.	V4
+V4: Aborts vs. Faults vs. Traps (je Beispiel)?	Aborts = schwere HW-Fehler; Faults = vor Instruktion (z.B. Division durch 0); Traps = während/nach (z.B. Overflow, Breakpoint).	V4
+V4: Was ist ein Protothread und der C-Trick dahinter? Nachteil?	Stapellose, speicherarme Threads in 6 Zeilen C via switch/__LINE__-Trick. Nachteil: lokale Variablen gehen verloren (außer static).	V4
+V4: Was ist ein Watchdog? Drei Lösungen bei Long-running Tasks?	Timer, der den µC resettet, wenn nicht regelmäßig gestreichelt. Lösungen: PROCESS_PAUSE() · watchdog_stop/start · watchdog_periodic.	V4
+V4: Welche Operation kostet am meisten Energie (TX/RX/Sleep)?	Networking: TX ~600, RX ~680 Zyklen/Bit, Sleep nur 1/100 Zyklus → Radio so oft wie möglich aus.	V4
+V4: X-MAC vs. ContikiMAC — und Effekt im Railroad-Versuch?	X-MAC = wiederholte Preamble mit Zieladresse; ContikiMAC = broadcastet Datenpaket direkt. „Radio on“: 100 % → X-MAC 10,4 % → ContikiMAC 1,5 %.	V4
+V4: Was ist eine atomic section und wozu?	Codeabschnitt mit deaktivierten Interrupts (disable_int/enable_int) gegen Shared-Data-Probleme.	V4
+V5: Auge — Stäbchen vs. Zapfen, und was ist die Fovea?	~100–120 Mio. Stäbchen (Nachtsicht, außerhalb Fovea), ~7–8 Mio. Zapfen (Tagsicht, in Fovea; S/M/L). Fovea = schärfste Sicht.	V5
+V5: Was ist pre-attentive processing? Dauer? Wovon unabhängig?	Parallele Wahrnehmung ohne Aufmerksamkeit, < 200–250 ms, unabhängig von der Anzahl der Distraktoren (attentive = seriell).	V5
+V5: Die vier Mechanorezeptoren mit Reiz?	Pacinian (Hochfrequenz-Vibration) · Meissner (Flattern/Schlupf) · Merkel (Form/Rauheit) · Ruffini (Hautdehnung).	V5
+V5: Modal Model (Atkinson & Shiffrin) + Kapazität Kurzzeitgedächtnis?	Sensory → Short-term ↔ Long-term, mit Rehearsal. Kurzzeit: 7 ± 2 Chunks (Miller 1956).	V5
+V5: Fitts' Law (Shannon-Form) hinschreiben + Parameter?	T = a + b·log₂(1 + D/W); ID = log₂(1 + D/W). a=Start/Stopp, b=Gerätegeschwindigkeit, D=Distanz, W=Zielbreite.	V5
+V5: Law of Steering vs. Fitts — der zentrale Unterschied?	Steering: T = a + b·(D/W) — Schwierigkeit LINEAR; bei Fitts logarithmisch. (Tunnel statt Punktziel.)	V5
+V5: KLM — wofür steht es, und die Zeiten für H, B, M?	Keystroke-Level Model. H (Homing) = 0,4 s; B (Buttonpress) = 0,1 s; M (mentaler Akt) = 1,35 s.	V5
+V5: Norman's Seven Stages of Action?	Goals → Intention → Sequence of actions → Execution → Perceiving → Interpreting → Evaluation.	V5
+V5: Gulf of Execution vs. Gulf of Evaluation?	Execution = Lücke zwischen wahrgenommenen und nötigen Aktionen. Evaluation = Lücke beim Interpretieren des Displays.	V5
+V5: Affordance vs. Signifier?	Affordance = wahrgenommene + tatsächliche Eigenschaften, die Bedienung andeuten. Signifier = wahrnehmbarer Teil davon (bewusst platziert).	V5
+V5: Direct Manipulation (Shneiderman) — Kernprinzipien?	Kontinuierliche Objektrepräsentation, physische Aktionen statt Befehlssyntax, schnelle umkehrbare Aktionen mit sofortigem Feedback.	V5
+V6: Context-Definition nach Dey & Abowd (2000)?	„Jede Information, die die Situation einer Entität (Person, Ort, Objekt) charakterisiert.“ Breiteste Definition.	V6
+V6: Die drei Nutzen von Kontext?	Gemeinsames Verständnis · implizite Interaktion (keine langen Befehle) · Vermeidung von Fehlinterpretationen.	V6
+V6: Was ist Activity Recognition? Historische Schwerpunktverschiebung?	Erkennen von Actions & Goals aus einer Beobachtungsserie. Verschiebung: Machbarkeit → Genauigkeit → Usability/Durability.	V6
+V6: Was ist der Curse of Dimensionality?	Mehr Sensoren = bessere Trennbarkeit, aber exponentiell wachsendes Volumen → Daten sparser, schwerer lernbar.	V6
+V6: Die vier Pitfalls realer Daten?	wrong environment · intrusive sensors · wrong users · insufficient samples.	V6
+V6: kNN vs. weighted kNN vs. Gauss-Modell?	kNN: nächster Nachbar (euklidisch), Voting. weighted kNN: Distanzen als Gewichte, argmax. Gauss: pro Klasse nur μ und Σ speichern.	V6
+V6: Definiere Precision, Recall, F1 über TP/FP/FN.	Precision = TP/(TP+FP). Recall = TP/(TP+FN). F1 = 2·P·R/(P+R) (harmonisches Mittel).	V6
+V6: Warum täuscht Accuracy bei Class Imbalance?	Ein Dummy-Klassifikator erreicht hohe Accuracy ohne die seltene Zielklasse je zu treffen (Rauchen: 99,3 % Acc, aber P/R/F1=0).	V6
+V6: Was ist n-Fold Cross Validation?	Daten in n Teile; jeder Teil wird mal Test-, mal Trainingsdaten (3-fold: 2 trainieren, 1 testen, mitteln).	V6
+V6: Die drei Ground-Truth-Methoden?	Time Diary · Experience Sampling (Alarm alle 15–30 min) · Self Recall (abends annotieren).	V6
+V6: Nenne ein frühes kontextsensitives System und was es tat.	Active Badge (Ultraschall-Lokalisierung) / Stick-e Notes (kontextabhängige Dokumente) / Cooltown (Web-Präsenz) / TEA (Sensoren im Telefon-Akku → Profil-Switching).	V6
+V7: Wofür steht SCADA?	Supervisory Control And Data Acquisition (steuert Pumpen/Ventile/Alarme kritischer Infrastruktur).	V7
+V7: Maroochy Water Breach — wer, wie, Schaden, Lehre?	Insider Vitek Boden rekonfigurierte über unsichere Funkverbindungen ein SCADA-Abwassersystem → 47 Fehler, >1 Mio. Liter Abwasser. Lehre: wake-up call für kritische Infrastruktur.	V7
+V7: Therac-25 — zentraler Designfehler und was technisch passierte?	Software ersetzte Hardware-Interlocks (+ variable overflow) → Elektronenstrahl ohne Target („lightning“), 16.500–25.000 rads in <1 s.	V7
+V7: Fluorouracil-Vorfall — Ursache?	Schlechtes Pumpen-/UI-Design (gleiche Taste für Dezimalpunkt & Pfeil; mL = mL/Stunde) → Dosis über 4 Stunden statt 4 Tage.	V7
+V7: Stuxnet — Verbreitung, Besonderheiten, Ziel, meiste Infektionen?	Über USB-Sticks (überwand Airgap); 4 0-day-Vulnerabilities + 2 kompromittierte Zertifikate; programmierte Siemens-PLCs um und maskierte Output. Meiste Infektionen: Iran.	V7
+V7: Übergeordnete Lehre aller vier Fallstudien?	Kritische Systeme versagen durch Zusammenspiel von Designfehlern, fehlenden Tests/Interlocks, Human Factors und Sicherheitslücken (intern/extern).	V7
+V7: Was bedeutet Airgap und 0-day?	Airgap = keine Internetanbindung (isolierte Industriesteuerung). 0-day = unbekannte/ungepatchte Schwachstelle.	V7
