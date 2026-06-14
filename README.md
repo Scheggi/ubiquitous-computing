@@ -13,6 +13,8 @@ summary/     Modulare Zusammenfassung (st2-Stil):
                01..07_*.md                   ← eine Summary pro Vorlesung
                papers/                        ← ⭐ Paper-Summaries (P1..P8)
 LERNPLAN_KLAUSUR.md   10-Einheiten-Lernplan
+FORMELSAMMLUNG.md     kompakte Formelsammlung (alle Formeln & Schlüsselzahlen)
+PROBEKLAUSUR.md       Mock-Klausur (90 P / 90 min) mit Lösungen
 EXAM_PRACTICE.md      Übungsfragen mit Lösungen (inkl. Paper-Tiefenfragen)
 anki_papers.tsv       50 Anki-Karteikarten zu den Papern
 anki_lectures.tsv     71 Anki-Karteikarten zu den Vorlesungen (V1–V7)
